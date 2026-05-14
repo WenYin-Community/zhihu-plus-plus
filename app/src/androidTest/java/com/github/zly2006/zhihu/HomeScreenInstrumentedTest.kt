@@ -47,7 +47,7 @@ import com.github.zly2006.zhihu.ui.HOME_SEARCH_BUTTON_TAG
 import com.github.zly2006.zhihu.ui.HOME_TOP_ACTIONS_TAG
 import com.github.zly2006.zhihu.ui.HomeScreen
 import com.github.zly2006.zhihu.ui.PREFERENCE_NAME
-import com.github.zly2006.zhihu.ui.QQ_GROUP_DISMISSED_PREFERENCE_KEY
+import com.github.zly2006.zhihu.ui.ARTICLE_WEBVIEW_CHANGE_ANNOUNCEMENT_DISMISSED_PREFERENCE_KEY
 import com.github.zly2006.zhihu.updater.UpdateManager
 import com.github.zly2006.zhihu.viewmodel.feed.BaseFeedViewModel
 import com.github.zly2006.zhihu.viewmodel.feed.HomeFeedViewModel
@@ -191,7 +191,7 @@ class HomeScreenInstrumentedTest {
             putBoolean("showRefreshFab", showRefreshFab)
             putBoolean("loginForRecommendation", false)
             putBoolean("filterExplainDialogShown", true)
-            putBoolean(QQ_GROUP_DISMISSED_PREFERENCE_KEY, true)
+            putBoolean(ARTICLE_WEBVIEW_CHANGE_ANNOUNCEMENT_DISMISSED_PREFERENCE_KEY, true)
             putBoolean("survey_feedback_done", true)
             putBoolean("autoCheckUpdates", false)
             putString("recommendationMode", RecommendationMode.WEB.key)
